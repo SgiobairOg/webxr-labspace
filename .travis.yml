@@ -1,4 +1,5 @@
 language: node_js
+os: linux
 node_js:
   - "stable"
 cache:
@@ -7,9 +8,8 @@ cache:
 script:
   - npm run build
 deploy:
-  os: linux
   provider: pages
-  cleanup: true
+  skip_cleanup: true
   token: $token
   local_dir: dist
   on:
