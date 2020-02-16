@@ -1,0 +1,24 @@
+{
+  "name": "webxr-labspace",
+  "version": "0.0.1",
+  "description": "WebXR Experiments Space",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sgiobairog/webxr-labspace.git"
+  },
+  "keywords": [
+    "WebXR",
+    "Oculus",
+    "Quest"
+  ],
+  "author": "Jason Wilson <jason@wilsons.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sgiobairog/webxr-labspace/issues"
+  },
+  "homepage": "https://github.com/sgiobairog/webxr-labspace#readme"
+}
